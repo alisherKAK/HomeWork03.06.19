@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TabControl HorizontalAlignment="Left" Height="237" Margin="10,10,0,0" VerticalAlignment="Top" Width="237">
+            <TabItem Name="he" Header="TabItem">
+                <Grid Background="#FFE5E5E5" Height="194" HorizontalAlignment="Center" Width="231"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5" Height="194" HorizontalAlignment="Center" Width="231"/>
+            </TabItem>
+        </TabControl>
+        <ComboBox HorizontalAlignment="Left" Margin="276,10,0,0" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="371,10,0,0" VerticalAlignment="Top" Width="173"/>
+        <RadioButton Content="RadioButton" Foreground="White" HorizontalAlignment="Left" Margin="371,68,0,0" VerticalAlignment="Top" Height="21" Width="118"/>
     </Grid>
 </Window>
